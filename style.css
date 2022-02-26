@@ -70,14 +70,31 @@ header ul {
     display: flex;
     margin-right: 10%;
     gap: 5%;
-    background-color: white;
 }
 
 header ul li {
     display: flex;
     align-items: center;
-    min-width: 8em;
-    background-color: black;
+    justify-content: center;
+    min-width: 10em;
+    cursor: pointer;
+}
+
+header ul li:hover{
+    /*background-color: rgba(181,131,0,1);*/
+    border-bottom: 3px solid rgba(181,131,0,1);
+    border-radius: 1px;
+    height: 30px;
+}
+
+li:clicked {
+    background-color: rgba(181,131,0,1);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.unClicked {
+    background-color: rgba(77,98,156,1);
 }
 
 /*//////////////////////
@@ -88,6 +105,7 @@ main {
     background-color: black;
     height: 100%;
     width: 100%;
+    content: " ";
     display: flex;
     justify-content: center;
 }
