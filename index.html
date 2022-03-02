@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monterey Dive Sites</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
-        <h1>Dive Sites<br> Of Monterey, California</h1>
+        <h1>Dive Sites<br> of Monterey, California</h1>
         <ul>
-            <li>North Monastery</li>
-            <li>San Carlos Beach</li>
-            <li>Metridium Fields</li>
-            <li>Point Lobos</li>
+            <li id="northMonastery">North Monastery</li>
+            <li id="sanCarlosBeach">San Carlos Beach</li>
+            <li id="metridiumField">Metridium Field</li>
+            <li id="pointLobos">Point Lobos</li>
         </ul>
     </header>
     <main>
-        <!--<img class="mapStart" src="/assets/mapStart.png">-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26355.502029499614!2d-121.91301909863071!3d36.60968021923057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de41b84eebdd9%3A0x457666c46d604cb6!2sSan%20Carlos%20Beach!5e1!3m2!1sen!2sus!4v1646200685405!5m2!1sen!2sus" width="1200" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <img id="mapStart" src="assets/mapStart.png">
+        <img id="metridiumFieldDiveSite" class="hidden" src="assets/metridiumFieldsMarker.png">
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26355.502029499614!2d-121.91301909863071!3d36.60968021923057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de41b84eebdd9%3A0x457666c46d604cb6!2sSan%20Carlos%20Beach!5e1!3m2!1sen!2sus!4v1646200685405!5m2!1sen!2sus" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
     </main>
     <footer>
 
     </footer>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

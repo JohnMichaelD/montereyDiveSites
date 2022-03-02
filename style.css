@@ -58,6 +58,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    font-family: 'Cousine', monospace;
 }
 
 header h1 {
@@ -69,10 +70,14 @@ header ul {
     display: flex;
     margin-right: 10%;
     gap: 5%;
+    background-color: white;
 }
 
 header ul li {
-    width: 150px;
+    display: flex;
+    align-items: center;
+    min-width: 8em;
+    background-color: black;
 }
 
 /*//////////////////////
@@ -89,4 +94,10 @@ main {
 
 img {
     margin: 50px 0;
+    height: 600px;
+    width: 1200px;
+}
+
+.hidden{
+	display: none;
 }
