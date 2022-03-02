@@ -62,13 +62,17 @@ header {
 
 header h1 {
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 10%;
 }
 
 header ul {
     display: flex;
-    margin-right: 50px;
+    margin-right: 10%;
     gap: 5%;
+}
+
+header ul li {
+    width: 150px;
 }
 
 /*//////////////////////
@@ -79,4 +83,10 @@ main {
     background-color: black;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin: 50px 0;
 }
